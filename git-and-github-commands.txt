@@ -1,0 +1,25 @@
+  486  cd Desktop/planets/
+  488  for log in log{01..11}.txt; do rm $log; done
+  489  ls
+  490  git remote add origin https://github.com/nathaniel33/planets.git
+  491  git branch -M main
+  492  git remote -v
+  493  ls -al ~/.ssh
+  494  git pull origin main
+  495  cat mars.txt 
+  496  nano mars.txt
+  497  git add mars.txt 
+  498  git commit mars.txt -m "More on Oliver Morton"
+  499  cat venus.txt 
+  500  nano venus.txt 
+  501  git add venus.txt; git commit venus.txt
+  502  git status
+  503  git commit venus.txt -m "Second stop is Jupiter"
+  504  nano Stylus-Fantasticus.txt
+  505  git add Stylus-Fantasticus.txt 
+  506  git commit Stylus-Fantasticus.txt -m "Initial thoughts about Fantasticus"
+  507  nano Stylus-Fantasticus.txt 
+  508  git add Stylus-Fantasticus.txt
+  509  git commit Stylus-Fantasticus.txt -m "Ensemble Fitzwilliam Frescobaldi"
+  510  git push -u origin main
+  516  history | tail -n 35 > git-and-github-commands.txt
